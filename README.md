@@ -5,7 +5,7 @@
 Reading Stone is a Gaze-spawned subprocess. It speaks JSON-RPC 2.0 over stdin/stdout
 (protocol v1.2.0). Gaze owns the CLI, scoring, and reports.
 
-## Current status (v0.2.0)
+## Current status (v0.2.1)
 
 | Method | Status |
 |--------|--------|

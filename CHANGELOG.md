@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-11-23
+
+Apart from the version number, the package code is identical to 0.2.0.
+
+### Changed
+
+- First release made by the dispatched `release` workflow: the tag is
+  created by the workflow, and the package is staged through npm
+  trusted publishing with provenance, then approved by a maintainer.
+
 ## [0.2.0] - 2026-11-23
 
 First npm release. Implements the complete
@@ -49,5 +59,6 @@ for TypeScript and JavaScript projects.
 - The package `exports` map exposes only the root barrel and
   `./package.json`; deep imports of `dist/*` are unsupported.
 
-[Unreleased]: https://github.com/zero-dot-force/reading-stone/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/zero-dot-force/reading-stone/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/zero-dot-force/reading-stone/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/zero-dot-force/reading-stone/releases/tag/v0.2.0
